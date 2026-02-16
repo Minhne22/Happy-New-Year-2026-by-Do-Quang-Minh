@@ -1,16 +1,44 @@
-# React + Vite
+# Happy New Year 2026 🎉
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Đây là một dự án web đơn giản để đếm ngược đến khoảnh khắc giao thừa năm mới 2026, được xây dựng bằng React và Vite.
 
-Currently, two official plugins are available:
+## ✨ Tính năng
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ⏳ **Đếm ngược**: Hiển thị thời gian đếm ngược chính xác đến mốc thời gian đã định (mặc định là 00:00 ngày 17/02/2026 theo giờ UTC+7).
+- 🎆 **Pháo hoa**: Hiệu ứng pháo hoa rực rỡ sử dụng HTML5 Canvas.
+- 🔊 **Âm thanh**: Hiệu ứng âm thanh chân thực (tiếng pháo bay lên và tiếng nổ) khi pháo hoa được kích hoạt.
+- 📱 **Responsive**: Giao diện, hình nền phù hợp cho cả máy tính và điện thoại.
 
-## React Compiler
+## 🚀 Hướng dẫn chạy trên Local
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Để chạy dự án này trên máy tính của bạn, hãy làm theo các bước sau:
 
-## Expanding the ESLint configuration
+### 1. Yêu cầu trước khi cài đặt
+Đảm bảo máy tính của bạn đã cài đặt **Node.js** (phiên bản 14 trở lên được khuyến nghị).
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 2. Cài đặt
+
+Mở terminal tại thư mục của dự án và chạy lệnh sau để cài đặt các thư viện cần thiết:
+
+```bash
+npm install
+```
+
+### 3. Chạy dự án
+
+Sau khi cài đặt xong, khởi chạy server development bằng lệnh:
+
+```bash
+npm run dev
+```
+
+Sau khi chạy lệnh, terminal sẽ hiển thị một đường dẫn (thường là `http://localhost:5173/`). Hãy mở đường dẫn đó trên trình duyệt web để xem kết quả.
+
+## 🛠️ Công nghệ sử dụng
+
+- **React**: Thư viện JavaScript để xây dựng giao diện người dùng.
+- **Vite**: Công cụ build tool nhanh chóng và nhẹ.
+- **HTML5 Canvas**: Để vẽ hiệu ứng pháo hoa.
+
+---
+© 2026 Do Quang Minh
